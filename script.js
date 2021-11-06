@@ -56,7 +56,7 @@ function auto() {
 //ограничение кредита
 function if1 () {
   if (score < -100) {
-    document.write('<title>Game over</title><link rel="stylesheet" href="./style.css"><link rel="icon" href="img/mouse.png"><main><h2>Вы проиграли, так-как вы превысили лимит кредита<a href="/index.html"><button>Начать заново</button></h2></main></a>');
+    document.write('<title>Game over0</title><link rel="stylesheet" href="./style.css"><link rel="icon" href="img/mouse.png"><main><h2>Вы проиграли, так-как вы превысили лимит кредита<a href="/lastest/index.html"><button>Начать заново</button></h2></main></a>');
   }
 }
 //вызов автокликера для его работы
