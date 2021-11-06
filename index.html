@@ -29,7 +29,7 @@
 <body>
   <main>
     <h2>Игра кликер</h2>
-    <h1 id ="score">2$<img src="coins.png"></h1>
+    <h1 id ="score">0$<img src="coins.png"></h1>
     <h3 id="level">Ваш уровень: 1</h2>
     <button id="clickbtn" onclick="clickBtn()">+$</button>
     <br><input type="button" value="Прокачать на 1 уровень|-100$" onclick="update()">
@@ -45,5 +45,13 @@
   </main>
 </body>
   <script  src="./script.js"></script>
+
+  <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+
+<script>
+// Sends event to client
+vkBridge.send('VKWebAppInit');
+</script>
+
 </body>
 </html>
